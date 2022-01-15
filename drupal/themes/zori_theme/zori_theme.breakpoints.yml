@@ -1,0 +1,23 @@
+leica.mobile:
+  label: mobile
+  mobilemediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+
+leica.tablet:
+  label: tablet
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 1023px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+
+leica.desktop:
+  label: desktop
+  mediaQuery: 'all and (min-width: 1024px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
